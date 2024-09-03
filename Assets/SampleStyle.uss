@@ -1,0 +1,23 @@
+.button-blue {
+    font-size: 45px;
+    background-color: rgb(18, 110, 255);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    flex-grow: 0;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-elastic;
+}
+
+.button-blue:hover {
+    scale: 1.1 1.1;
+}
+
+.button-blue:active {
+    background-color: rgb(0, 182, 255);
+}
